@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>The Results</title>
+    </head>
+    <body>
+        <h1>The Results for {{url}}</h1>
+
+        <p>Some reviews</p>
+        <ul>
+            {% for review in reviews %}
+                <li>{{review}}</li>
+            {% endfor %}
+        </ul>
+        
+        <p>Here are the results:</p>
+        <p>{{results}}</p>
+
+    </body>
+</html>
